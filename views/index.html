@@ -1,88 +1,229 @@
-<!Doctype html>
+  <!Doctype html>
 
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="../css/main.css">
-</head>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
 
-<body>
-  <header>
-    <div class="container">
-      <div class="header-1 pull-left">
-        <img class="img-logo" src="https://www.cooky.vn/Content/img/cooky-slogan-white.68.png" alt="logo" />
-      </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
 
-      <div class="header-2 pull-left">
-        <form action="/" type="post">
-          <div>
-            <input type="text" placeholder="Search" />
-            <button type="submit" class="glyphicon glyphicon-search ico-search"></button>
-          </div>
-        </form>
-      </div>
+    <!-- bxSlider Javascript file -->
+    <script src="../lib/jquery.bxslider/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="../lib/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
 
-      <div class="header-3 pull-right">
-        <ul>
-          <li>
-              <a href="/">
-                <span class="fa fa-mobile-phone"></span>
-              </a>
+  </head>
 
-          </li>
-          <li>
-              <a href="/">
-                <span class="fa fa-facebook-square"></span>
-              </a>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-1 pull-left">
+          <img class="img-logo" src="https://www.cooky.vn/Content/img/cooky-slogan-white.68.png" alt="logo" />
+        </div>
 
-          </li>
-          <li>
-              <a href="/">
-                <span class="fa fa-instagram"></span>
-              </a>
-
-          </li>
-          <li>
-              <a href="/">
-                <span class="fa fa-youtube-square"></span>
-              </a>
-
-          </li>
-        </ul>
-
-      </div>
-    </div>
-    <div class="main-nav">
-        <div class="container">
-            <div class="nav">
-              <nav>
-                <a href="#" class="nav-home"><span class="glyphicon glyphicon-home fa-nav"></span></a>
-                <a href="#">Công thức</a>
-                <a href="#">Blog</a>
-                <a href="#">Bộ sưu tập</a>
-                <a href="#">Videos</a>
-                <a href="#"><span class="fa fa-map-marker fa-nav"></span>Địa điểm</a>
-                <a href="#">Sản phẩm</a>
-                <a href="#"><span class="fa fa-users fa-nav"></span>Top đầu bếp</a>
-                <a href="#"><span class="fa fa-comments-o fa-nav"></span>Hỏi & Đáp</a>
-                <a href="#">Công thức</a>
-              </nav>
+        <div class="header-2 pull-left">
+          <form action="/" type="post">
+            <div>
+              <input type="text" placeholder="Search" />
+              <button type="submit" class="glyphicon glyphicon-search ico-search"></button>
             </div>
+          </form>
         </div>
-    </div>
-  </header>
-  <div id="main">
-    <div class="container">
-        <div class="banner">
-            <h1>Nấu gì hôm nay? Tìm ngay công thức</h1>
-            <input type="search" name="search" placeholder="ví dụ: cupcake, soup, mojito, sinh tố, ...">
+
+        <div class="header-3 pull-right">
+          <ul>
+            <li>
+                <a href="/">
+                  <span class="fa fa-mobile-phone"></span>
+                </a>
+
+            </li>
+            <li>
+                <a href="/">
+                  <span class="fa fa-facebook-square"></span>
+                </a>
+
+            </li>
+            <li>
+                <a href="/">
+                  <span class="fa fa-instagram"></span>
+                </a>
+
+            </li>
+            <li>
+                <a href="/">
+                  <span class="fa fa-youtube-square"></span>
+                </a>
+
+            </li>
+          </ul>
+
         </div>
+      </div>
+      <div class="main-nav">
+          <div class="container">
+              <div class="nav">
+                <nav>
+                  <a href="#" class="nav-home"><span class="glyphicon glyphicon-home"></span></a>
+                  <a href="#">Công thức</a>
+                  <a href="#">Blog</a>
+                  <a href="#">Bộ sưu tập</a>
+                  <a href="#">Videos</a>
+                  <a href="#"><span class="fa fa-map-marker fa-nav"></span>Địa điểm</a>
+                  <a href="#">Sản phẩm</a>
+                  <a href="#"><span class="fa fa-users fa-nav"></span>Top đầu bếp</a>
+                  <a href="#"><span class="fa fa-comments-o fa-nav"></span>Hỏi & Đáp</a>
+                  <a href="#">Công thức</a>
+                </nav>
+              </div>
+          </div>
+      </div>
+    </header>
+    <div id="main">
+      <div class="container">
+          <div class="banner">
+            <div class="slider">
+              <ul class="bxslider">
+                <li><img src="../images/com-tron-bibimbap.jpg" /></li>
+                <li><img src="../images/mam-ruoc-thai-nam-pla-wan.jpg" /></li>
+                <li><img src="../images/tran-chau-trang.jpg" /></li>
+              </ul>
+            </div>
+
+            <div class="in-banner">
+                <h1>Nấu gì hôm nay? Tìm ngay công thức</h1>
+                <div class="container-search">
+                  <form action="/timkiem" method="post">
+                    <span class="glyphicon glyphicon-search"></span>
+                    <input type="search" name="search" placeholder="ví dụ: cupcake, soup, mojito, sinh tố, ...">
+                  </form>
+                </div>
+            </div>
+          </div>
+
+          <div class="main-post">
+            <h3>Các món ngon đang xem nhiều</h3>
+            
+            <div class="row">
+                <div class="item-cook">
+                   <div class="item-photo">
+                      <img src="../images/item1.jpg" />
+                   </div>
+                   <div class="item-content">
+                       <h3 class="title"><a href="#">Trân châu hoàng kim</a></h3>
+                       <div class="review">
+                        <span>482 views</span>
+                       </div>
+                    </div>
+                </div>
+                <div class="item-cook">
+                   <div class="item-photo">
+                      <img src="../images/item1.jpg" />
+                   </div>
+                   <div class="item-content">
+                       <h3 class="title"><a href="#">Trân châu hoàng kim</a></h3>
+                       <div class="review">
+                        <span>482 views</span>
+                       </div>
+                    </div>
+                </div>
+                <div class="item-cook">
+                   <div class="item-photo">
+                      <img src="../images/item1.jpg" />
+                   </div>
+                   <div class="item-content">
+                       <h3 class="title"><a href="#">Trân châu hoàng kim</a></h3>
+                       <div class="review">
+                        <span>482 views</span>
+                       </div>
+                    </div>
+                </div>
+                <div class="item-cook">
+                   <div class="item-photo">
+                      <img src="../images/item1.jpg" />
+                   </div>
+                   <div class="item-content">
+                       <h3 class="title"><a href="#">Trân châu hoàng kim</a></h3>
+                       <div class="review">
+                        <span>482 views</span>
+                       </div>
+                    </div>
+                </div>
+                <div class="item-cook">
+                   <div class="item-photo">
+                      <img src="../images/item1.jpg" />
+                   </div>
+                   <div class="item-content">
+                       <h3 class="title"><a href="#">Trân châu hoàng kim</a></h3>
+                       <div class="review">
+                        <span>482 views</span>
+                       </div>
+                    </div>
+                </div>
+                <div class="item-cook">
+                   <div class="item-photo">
+                      <img src="../images/item1.jpg" />
+                   </div>
+                   <div class="item-content">
+                       <h3 class="title"><a href="#">Trân châu hoàng kim</a></h3>
+                       <div class="review">
+                        <span>482 views</span>
+                       </div>
+                    </div>
+                </div>
+                <div class="item-cook">
+                   <div class="item-photo">
+                      <img src="../images/item1.jpg" />
+                   </div>
+                   <div class="item-content">
+                       <h3 class="title"><a href="#">Trân châu hoàng kim</a></h3>
+                       <div class="review">
+                        <span>482 views</span>
+                       </div>
+                    </div>
+                </div>
+                <div class="item-cook">
+                   <div class="item-photo">
+                      <img src="../images/item1.jpg" />
+                   </div>
+                   <div class="item-content">
+                       <h3 class="title"><a href="#">Trân châu hoàng kim</a></h3>
+                       <div class="review">
+                        <span>482 views</span>
+                       </div>
+                    </div>
+                </div>
+                <div class="item-cook">
+                   <div class="item-photo">
+                      <img src="../images/item1.jpg" />
+                   </div>
+                   <div class="item-content">
+                       <h3 class="title"><a href="#">Trân châu hoàng kim</a></h3>
+                       <div class="review">
+                        <span>482 views</span>
+                       </div>
+                    </div>
+                </div>
+                <div class="item-cook">
+                   <div class="item-photo">
+                      <img src="../images/item1.jpg" />
+                   </div>
+                   <div class="item-content">
+                       <h3 class="title"><a href="#">Trân châu hoàng kim</a></h3>
+                       <div class="review">
+                        <span>482 views</span>
+                       </div>
+                    </div>
+                </div>
+                
+              </div>
+          </div>
+      </div>
     </div>
-  </div>
-</body>
-</html>
+  </body>
+  </html>

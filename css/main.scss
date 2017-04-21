@@ -69,6 +69,90 @@ header{
 	}
 }
 
+.main-nav{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+}
+
+.main-nav{
+	a{
+		padding: 8px 8px 8px 15px;
+		color: #777;
+	}
+	a:hover, a:active{
+		background-color: #b71c1c;
+		color: #fff;
+		text-decoration: none;
+	}
+	.nav-home{
+		background-color: #b71c1c;
+		color: #fff;
+		padding: 8px;
+		margin-right: 15px;
+	}
+	.fa-nav{
+		color: #d43f3a;
+		padding-right: 5px;
+	}
+}
+
+.banner{
+	position: relative; 
+    margin-top: 20px;
+    height: 500px;
+}
+
+.banner{
+	.slider{
+		position: absolute;
+	}
+	.in-banner{
+		position: absolute;
+	    text-align: center;
+	    left: 300px;
+	    color: #fff;
+	    z-index: 100;
+	    top: 20px;
+	}
+
+	.container-search{
+		position: relative;
+	}
+	.container-search{
+		span{
+		    position: absolute;
+		    font-size: 20px;
+		    color: #d43f3a;
+		    top: 10px;
+		    left: 10px;
+		}
+		input[name='search']{
+			width: 100%;
+		    border: none;
+		    padding-left: 50px;
+		    height: 40px;
+		    font-size: 16px;	
+		}	
+	}
+}
+
+.main-post{
+	.item-cook{
+		float: left;
+	    width: 234px;
+	    padding: 15px;
+	    overflow: hidden;
+	}
+
+	.item-cook{
+		.title{
+			font-size: 13px;
+			color: #000;
+
+		}
+	}
+}
 
 
 
